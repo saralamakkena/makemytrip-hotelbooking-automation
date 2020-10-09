@@ -222,7 +222,7 @@ public void hotelTest() throws InterruptedException, IOException {
 }
 
 
-@AfterClass
+@After
 public static void close()
 {
  driver.quit();	
